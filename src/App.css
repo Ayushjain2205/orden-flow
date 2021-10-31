@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Blatant";
+  src: local("Blatant"), url(./fonts/Blatant.otf) format("opentype");
+}
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  min-height: calc(100vh - 22px);
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 20px 70px;
+}
+
+/* Navbar */
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-holder {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 36px;
+  font-family: Blatant, Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  text-transform: uppercase;
+  margin-top: 7px;
+  width: fit-content;
+}
+
+.menu-items {
+  font-size: 18px;
+}
+
+.buttons-holder {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.buttons-holder a {
+  all: none;
+}
+
+/* Buttons */
+.btn {
+  width: 145px;
+  height: 48px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Welcome section */
+.welcome-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  padding: 60px;
+}
+
+.welcome-bold-text {
+  font-size: 72px;
+  font-weight: bold;
+  font-family: Blatant, Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+}
+
+.welcome-normal-text {
+  font-size: 36px;
+}
+
+.extension {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 40px;
+  background: #ec5bbf;
+  width: 90%;
+  height: 90px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+
+.extension-text {
+  font-size: 36px;
+  color: #000000;
+}
+
+.btn-black {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Section head */
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 74px;
+  margin-bottom: 48px;
+}
+
+.section-name {
+  font-size: 48px;
+  margin: 0;
+  font-family: Blatant, Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+}
+
+.section-btn {
+  border: 1px solid #ffffff;
+  background: #000000;
+  color: #ffffff;
+}
+
+/* NFT Tile */
+.nft-tile {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 430px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.more-info {
+  flex-direction: row;
+  position: relative;
+  left: 260px;
+  font-size: 22px;
+}
+
+.nft-image {
+  margin: 48px;
+  margin-bottom: 0px;
+  width: 204px;
+  height: 266px;
+  border-radius: 20px;
+}
+
+.nft-title {
+  margin-top: 12px;
+  margin-left: 24px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.price {
+  margin: 0;
+  font-size: 16px;
+  margin-left: 24px;
+}
+
+.creator-avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+.nftTile-holder {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  width: 95%;
+  overflow-x: scroll;
+  margin-bottom: 86px;
+}
+
+.nftTile-holder::-webkit-scrollbar {
+  display: none;
+}
+
+.fractional {
+  margin-top: -580px;
+  margin-bottom: -800px;
+}
+
+/* Footer */
+.footer-pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+/* Create page */
+.create-heading {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.what {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.btn-categories {
+  width: 90px;
+  height: 34px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btn-categories.active {
+  border: 2px solid white;
+}
+
+.categories-holder {
+  display: flex;
+  gap: 16px;
+}
+
+.create-label {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.create-input {
+  width: 594px;
+  height: 60px;
+  left: 54px;
+  top: 356px;
+
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: none;
+  padding-left: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.type-btn {
+  width: 119px;
+  height: 113px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.type-icon {
+  display: block;
+}
+
+.type-buttons {
+  display: flex;
+  gap: 32px;
+}
+
+.selected-type {
+  background: #ed63c2;
+  border: none;
+}
+
+.image-holder {
+  width: 401px;
+  height: 460px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.create-box {
+  display: flex;
+}
+
+.image-holder {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.nft-image-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+}
+
+.loaded-image {
+  width: 350px;
+  height: 400px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+/* nft page */
+.nft-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  width: 1110px;
+  margin-left: 85px;
+}
+
+.nft-page-title {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 36px;
+}
+
+.nft-page-creator {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.creator-name {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.details-tabs {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 26px;
+}
+
+.nft-description-text {
+  width: 450px;
+  font-size: 12px;
+  margin-top: 16px;
+  margin-bottom: 45px;
+}
+
+/* Badges page */
+
+.badges-page-header {
+  margin-top: -250px;
+  margin-left: 200px;
+  width: 1320px;
+}
+
+.badges-page {
+  margin: auto;
+}
