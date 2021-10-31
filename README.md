@@ -8,12 +8,12 @@ Creators stand a chance to earn badges for engagement with their audience. Creat
 
 [Youtube demo video](https://www.youtube.com/watch?v=GVCe1xHgUU0)
 
-[url=https://postimg.cc/wRD8kdby][img]https://i.postimg.cc/wRD8kdby/orden1.png[/img][/url]
+[![orden1.png](https://i.postimg.cc/6qmWtWr0/orden1.png)](https://postimg.cc/wRD8kdby)
 
-[url=https://postimg.cc/G4X0KKzQ][img]https://i.postimg.cc/G4X0KKzQ/orden2.png[/img][/url]
+[![orden2.png](https://i.postimg.cc/6qmWtWr0/orden2.png)](https://postimg.cc/wRD8kdby)
 
-[url=https://postimg.cc/mtGGgttQ][img]https://i.postimg.cc/mtGGgttQ/orden3.png[/img][/url]
+[![orden3.png](https://i.postimg.cc/6qmWtWr0/orden3.png)](https://postimg.cc/wRD8kdby)
 
-[url=https://postimg.cc/GHJn8dy6][img]https://i.postimg.cc/GHJn8dy6/orden4.png[/img][/url]
+[![orden4.png](https://i.postimg.cc/6qmWtWr0/orden4.png)](https://postimg.cc/wRD8kdby)
 
-[url=https://postimg.cc/JsrVjv30][img]https://i.postimg.cc/JsrVjv30/orden5.png[/img][/url]
+[![orden5.png](https://i.postimg.cc/6qmWtWr0/orden5.png)](https://postimg.cc/wRD8kdby)
